@@ -1,7 +1,7 @@
 # Credential Sentinel — website
 
 Four static pages for App Store Connect. No build step, no dependencies, no
-external requests — just HTML and one stylesheet.
+external requests — just HTML, one stylesheet and the app icon.
 
 | File | Used in App Store Connect as | Live URL |
 |---|---|---|
@@ -10,14 +10,15 @@ external requests — just HTML and one stylesheet.
 | `support.html` | **Support URL** (required) | https://luissummit.github.io/credential-sentinel/support.html |
 | `terms.html` | Custom EULA (optional) | https://luissummit.github.io/credential-sentinel/terms.html |
 
-Served by GitHub Pages from the `main` branch, root folder. This repository must
-stay **public**, and Apple's reviewer must be able to open the privacy URL
-without logging in.
+Served by GitHub Pages from `github.com/LUISSUMMIT/credential-sentinel`, `main`
+branch, root folder. The repository must stay **public**, and Apple's reviewer
+must be able to open the privacy URL without logging in.
 
 ## Editing
 
-Edit the files and commit; Pages redeploys in about a minute. The master copies
-live on the iMac in `Expire Reminder Business/website/`.
+This folder is the master copy. After changing a file here, upload it to the
+repository (github.com → the repo → Add file → Upload files) and Pages
+redeploys in about a minute.
 
 - `support@summituspro.com` is the contact address on every page.
 - **Summit** is the publisher name throughout.
